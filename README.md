@@ -1,5 +1,5 @@
-Santiago Zubieta
-2012
+##Santiago Zubieta
+####2012
 
 -------
 
@@ -28,4 +28,9 @@ the result is a more organic and natural looking state'
 Cyclic Demons Theory
 http://en.wikipedia.org/wiki/Cyclic_cellular_automaton
 
-http://www.youtube.com/watch?v=ggDWurIu6zI
+
+C++ Version Video
+[![](https://raw2.github.com/Zubieta/AdInfinitum/master/Screenshots/Screen_CPP.png)](http://www.youtube.com/watch?v=ggDWurIu6zI)
+
+Java Version Video
+[![](https://raw2.github.com/Zubieta/AdInfinitum/master/Screenshots/Screen_Java.png)](http://www.youtube.com/watch?v=84-AlIMW7Fk)
