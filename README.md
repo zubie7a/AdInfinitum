@@ -7,20 +7,21 @@
 The AdInfinitum app is an application of the Cyclic Cellular Automaton theory, which from a initial state of several random dispersed colors, and a set of rules (colors converting a certain neighbors into their color) some linear patters start to emerge. This becomes even crazier if there's a 'random' element inserted into the chance of 'survival' of a color when being converted by another, breaking the linearity and creating spirals. This was done for educational purposes, using SFML 2.0 in C++ and AWT/Swing in Java, and is licensed for use under the MIT License.
 
 ###Telling a story...
-'*A grid full of individual cells, 
-each with a color value chosen at random, 
+'*A grid full of individual cells,  
+each with a color value chosen at random,  
 overall, there are up to 12 different colors*
 
-Suddenly, each cell becomes a prey. its hunter, is the 'next' color in the Metaverse rules, like:
-1 -> 2 / 2 -> 3 / 3 -> 4... up to 12 -> 1
+*Suddenly, each cell becomes a prey.  
+its hunter, is the 'next' color in the Metaverse rules, like:  
+1 -> 2 / 2 -> 3 / 3 -> 4... up to 12 -> 1*  
 
-*If everything goes according to the plan, 
-a curious linear and cyclical pattern is formed*
+*If everything goes according to the plan,  
+a curious linear and cyclical pattern is formed*  
 
-*But then, once in a while, chaos may appear
-This chaos, is the uprising of the preys
-It doesn't mean the prey will eat the hunter,
-but it means that a prey may survive. 50/50*
+*But then, once in a while, chaos may appear.  
+This chaos, is the uprising of the preys.  
+It doesn't mean the prey will eat the hunter,  
+but it means that a prey may survive. 50/50*  
 
 *The linear cyclical pattern is broken, 
 the result is a more organic and natural looking state*
