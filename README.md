@@ -11,8 +11,8 @@ The AdInfinitum app is an application of the Cyclic Cellular Automaton theory, w
 each with a color value chosen at random, 
 overall, there are up to 12 different colors'
 
-Suddenly, each cell becomes a prey. its hunter, is the 'next' color in the Metaverse rules:
-1 -> 2 / 2 -> 3 / 3 -> 4 / 4 -> 5 / 5 -> 6 / 6 -> 7 / 7 -> 8 / 8 -> 9 / 9 -> 10 / 10 -> 11 / 11 -> 12 / 12 -> 1
+Suddenly, each cell becomes a prey. its hunter, is the 'next' color in the Metaverse rules, like:
+1 -> 2 / 2 -> 3 / 3 -> 4... up to 12 -> 1
 
 'If everything goes according to the plan, 
 a curious linear and cyclical pattern is formed'
