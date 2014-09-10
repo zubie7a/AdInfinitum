@@ -1,12 +1,12 @@
 ##Santiago Zubieta
 ####2012
 
--------
+#AdInfinitum
 
+###Description
 The AdInfinitum app is an application of the Cyclic Cellular Automaton theory, which from a initial state of several random dispersed colors, and a set of rules (colors converting a certain neighbors into their color) some linear patters start to emerge. This becomes even crazier if there's a 'random' element inserted into the chance of 'survival' of a color when being converted by another, breaking the linearity and creating spirals. This was done for educational purposes, using SFML 2.0 in C++ and AWT/Swing in Java, and is licensed for use under the MIT License.
 
-Told like a story:
-
+###Telling a story...
 'A grid full of individual cells, 
 each with a color value chosen at random, 
 overall, there are up to 12 different colors'
@@ -28,9 +28,8 @@ the result is a more organic and natural looking state'
 Cyclic Demons Theory
 http://en.wikipedia.org/wiki/Cyclic_cellular_automaton
 
-
-C++ Version Video
+###C++ Version Video
 [![](https://raw2.github.com/Zubieta/AdInfinitum/master/Screenshots/Screen_CPP.png)](http://www.youtube.com/watch?v=ggDWurIu6zI)
 
-Java Version Video
+###Java Version Video
 [![](https://raw2.github.com/Zubieta/AdInfinitum/master/Screenshots/Screen_Java.png)](http://www.youtube.com/watch?v=84-AlIMW7Fk)
