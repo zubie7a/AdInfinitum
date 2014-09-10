@@ -1,0 +1,137 @@
+// !$*UTF8*$!
+{
+	A01FB69C0F07CF63000AAC7B /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = FDF096F71560487A0078A6BA /* AdInfinitum */;
+		activeTarget = A01FB6A80F07CF6E000AAC7B /* AdInfinitum */;
+		codeSenseManager = FDF09701156048990078A6BA /* Code sense */;
+		executables = (
+			FDF096F71560487A0078A6BA /* AdInfinitum */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					833,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 359703888;
+			PBXWorkspaceStateSaveDate = 359703888;
+		};
+		perUserProjectItems = {
+			FD5A461B1570A569008C0F67 /* PBXTextBookmark */ = FD5A461B1570A569008C0F67 /* PBXTextBookmark */;
+			FD6B9D421565762700ADF41C /* PlistBookmark */ = FD6B9D421565762700ADF41C /* PlistBookmark */;
+			FD6B9D76156579ED00ADF41C /* PBXTextBookmark */ = FD6B9D76156579ED00ADF41C /* PBXTextBookmark */;
+		};
+		sourceControlManager = FDF09700156048990078A6BA /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	A01FB6A80F07CF6E000AAC7B /* AdInfinitum */ = {
+		activeExec = 0;
+		executables = (
+			FDF096F71560487A0078A6BA /* AdInfinitum */,
+		);
+	};
+	A01FB6C80F07CFCE000AAC7B /* main.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 1612}}";
+			sepNavSelRange = "{1101, 0}";
+			sepNavVisRange = "{2790, 374}";
+			sepNavWindowFrame = "{{15, 4}, {1265, 774}}";
+		};
+	};
+	FD5A461B1570A569008C0F67 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A01FB6C80F07CFCE000AAC7B /* main.cpp */;
+		name = "main.cpp: 37";
+		rLen = 0;
+		rLoc = 1101;
+		rType = 0;
+		vrLen = 374;
+		vrLoc = 2790;
+	};
+	FD6B9D421565762700ADF41C /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = A01FB6AC0F07CF6E000AAC7B /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/Zubieta/Desktop/Z7/Crazy Projects/CPP/AdInfinitum/Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	FD6B9D76156579ED00ADF41C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A01FB6C80F07CFCE000AAC7B /* main.cpp */;
+		name = "main.cpp: 37";
+		rLen = 0;
+		rLoc = 1101;
+		rType = 0;
+		vrLen = 660;
+		vrLoc = 360;
+	};
+	FDF096F71560487A0078A6BA /* AdInfinitum */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = AdInfinitum;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	FDF09700156048990078A6BA /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	FDF09701156048990078A6BA /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}

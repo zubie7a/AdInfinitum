@@ -1,0 +1,253 @@
+TAdInfinitum
+v7
+r0
+t358971489.161623
+cCheck dependencies
+cProcessInfoPlistFile "/Users/Zubieta/Desktop/Z7/Crazy Projects/CPP/AdInfinitum/build/Debug/AdInfinitum.app/Contents/Info.plist" Info.plist
+cCompileC build/AdInfinitum.build/Debug/AdInfinitum.build/Objects-normal/i386/main.o "/Users/Zubieta/Desktop/Z7/Crazy Projects/CPP/AdInfinitum/main.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+cLd "/Users/Zubieta/Desktop/Z7/Crazy Projects/CPP/AdInfinitum/build/Debug/AdInfinitum.app/Contents/MacOS/AdInfinitum" normal i386
+cPBXCp build/Debug/AdInfinitum.app/Contents/Frameworks/sfml-system.framework /Library/Frameworks/sfml-system.framework
+cPBXCp build/Debug/AdInfinitum.app/Contents/Frameworks/sfml-window.framework /Library/Frameworks/sfml-window.framework
+cPBXCp build/Debug/AdInfinitum.app/Contents/Frameworks/sfml-graphics.framework /Library/Frameworks/sfml-graphics.framework
+cTouch "/Users/Zubieta/Desktop/Z7/Crazy Projects/CPP/AdInfinitum/build/Debug/AdInfinitum.app"
+
+N/Library/Frameworks/sfml-graphics.framework
+c000000004FAE954A00000000000000AA
+t1336841546
+s170
+
+N/Library/Frameworks/sfml-graphics.framework/sfml-graphics
+c000000004F89B421000000000022B588
+t1334424609
+s2274696
+
+N/Library/Frameworks/sfml-system.framework
+c000000004FAE954A00000000000000AA
+t1336841546
+s170
+
+N/Library/Frameworks/sfml-system.framework/sfml-system
+c000000004F89B3CD00000000000171AC
+t1334424525
+s94636
+
+N/Library/Frameworks/sfml-window.framework
+c000000004FAE954A00000000000000AA
+t1336841546
+s170
+
+N/Library/Frameworks/sfml-window.framework/sfml-window
+c000000004F89B3F90000000000046E1C
+t1334424569
+s290332
+
+N/Users/Zubieta/Desktop/AdInfinitum/build/AdInfinitum.build/Debug/AdInfinitum.build/Objects-normal/i386/AdInfinitum.LinkFileList
+c000000004FB01337000000000000006E
+t1336939319
+s110
+
+N/Users/Zubieta/Desktop/AdInfinitum/build/AdInfinitum.build/Debug/AdInfinitum.build/Objects-normal/i386/main.o
+t1337104968
+s133624
+
+N/Users/Zubieta/Desktop/AdInfinitum/build/Debug/AdInfinitum.app
+t1337104970
+s102
+
+N/Users/Zubieta/Desktop/AdInfinitum/build/Debug/AdInfinitum.app/Contents/Frameworks/sfml-graphics.framework
+t1336939320
+s170
+
+N/Users/Zubieta/Desktop/AdInfinitum/build/Debug/AdInfinitum.app/Contents/Frameworks/sfml-system.framework
+t1336939320
+s170
+
+N/Users/Zubieta/Desktop/AdInfinitum/build/Debug/AdInfinitum.app/Contents/Frameworks/sfml-window.framework
+t1336939320
+s170
+
+N/Users/Zubieta/Desktop/AdInfinitum/build/Debug/AdInfinitum.app/Contents/Info.plist
+t1336939319
+s999
+
+N/Users/Zubieta/Desktop/AdInfinitum/build/Debug/AdInfinitum.app/Contents/MacOS/AdInfinitum
+t1337104970
+s18968
+
+N/Users/Zubieta/Desktop/AdInfinitum/build/Debug/AdInfinitum.app/Contents/PkgInfo
+t1336939319
+s8
+
+N/Users/Zubieta/Desktop/AdInfinitum/main.cpp
+c000000004FB2AF010000000000000CF6
+t1337110273
+s3318
+i<SFML/Graphics.hpp>
+i<time.h>
+i<cmath>
+
+N/Users/Zubieta/Desktop/Z7/Crazy Projects/CPP/AdInfinitum/build/AdInfinitum.build/Debug/AdInfinitum.build/Objects-normal/i386/AdInfinitum.LinkFileList
+c000000004FB34E470000000000000084
+t1337151047
+s132
+
+N/Users/Zubieta/Desktop/Z7/Crazy Projects/CPP/AdInfinitum/build/AdInfinitum.build/Debug/AdInfinitum.build/Objects-normal/i386/main.o
+t1337278547
+s134128
+
+N/Users/Zubieta/Desktop/Z7/Crazy Projects/CPP/AdInfinitum/build/Debug/AdInfinitum.app
+t1337278547
+s102
+
+N/Users/Zubieta/Desktop/Z7/Crazy Projects/CPP/AdInfinitum/build/Debug/AdInfinitum.app/Contents/Frameworks/sfml-graphics.framework
+t1336939320
+s170
+
+N/Users/Zubieta/Desktop/Z7/Crazy Projects/CPP/AdInfinitum/build/Debug/AdInfinitum.app/Contents/Frameworks/sfml-system.framework
+t1336939320
+s170
+
+N/Users/Zubieta/Desktop/Z7/Crazy Projects/CPP/AdInfinitum/build/Debug/AdInfinitum.app/Contents/Frameworks/sfml-window.framework
+t1336939320
+s170
+
+N/Users/Zubieta/Desktop/Z7/Crazy Projects/CPP/AdInfinitum/build/Debug/AdInfinitum.app/Contents/Info.plist
+t1336939319
+s999
+
+N/Users/Zubieta/Desktop/Z7/Crazy Projects/CPP/AdInfinitum/build/Debug/AdInfinitum.app/Contents/MacOS/AdInfinitum
+t1337278547
+s19012
+
+N/Users/Zubieta/Desktop/Z7/Crazy Projects/CPP/AdInfinitum/build/Debug/AdInfinitum.app/Contents/PkgInfo
+t1336939319
+s8
+
+N/Users/Zubieta/Desktop/Z7/Crazy Projects/CPP/AdInfinitum/main.cpp
+c000000004FB540520000000000000C5C
+t1337278546
+s3164
+i<SFML/Graphics.hpp>
+i<time.h>
+i<cmath>
+
+N/usr/include/time.h
+c000000004BBD2CE9000000000000178E
+t1270689001
+s6030
+
+N/usr/local/include/SFML/Graphics.hpp
+c000000004F609D700000000000000921
+t1331731824
+s2337
+
+NInfo.plist
+c000000004FB010FA000000000000027A
+t1336938746
+s634
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies358971489#358971489#0(0"0(0#1#0"8613870144#0"0#
+
+CCompileC build/AdInfinitum.build/Debug/AdInfinitum.build/Objects-normal/i386/main.o "/Users/Zubieta/Desktop/Z7/Crazy Projects/CPP/AdInfinitum/main.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s358971346.724031
+e358971347.082717
+r1
+xCompileC
+xbuild/AdInfinitum.build/Debug/AdInfinitum.build/Objects-normal/i386/main.o
+x/Users/Zubieta/Desktop/Z7/Crazy Projects/CPP/AdInfinitum/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/Zubieta/Desktop/Z7/Crazy Projects/CPP/AdInfinitum/main.cpp358971346#358971347#0(0"0(0#0#65"/Users/Zubieta/Desktop/Z7/Crazy Projects/CPP/AdInfinitum/main.cpp8613565248#1478"    cd "/Users/Zubieta/Desktop/Z7/Crazy Projects/CPP/AdInfinitum"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -iquote "/Users/Zubieta/Desktop/Z7/Crazy Projects/CPP/AdInfinitum/build/AdInfinitum.build/Debug/AdInfinitum.build/AdInfinitum-generated-files.hmap" "-I/Users/Zubieta/Desktop/Z7/Crazy Projects/CPP/AdInfinitum/build/AdInfinitum.build/Debug/AdInfinitum.build/AdInfinitum-own-target-headers.hmap" "-I/Users/Zubieta/Desktop/Z7/Crazy Projects/CPP/AdInfinitum/build/AdInfinitum.build/Debug/AdInfinitum.build/AdInfinitum-all-target-headers.hmap" -iquote "/Users/Zubieta/Desktop/Z7/Crazy Projects/CPP/AdInfinitum/build/AdInfinitum.build/Debug/AdInfinitum.build/AdInfinitum-project-headers.hmap" "-F/Users/Zubieta/Desktop/Z7/Crazy Projects/CPP/AdInfinitum/build/Debug" "-I/Users/Zubieta/Desktop/Z7/Crazy Projects/CPP/AdInfinitum/build/Debug/include" "-I/Users/Zubieta/Desktop/Z7/Crazy Projects/CPP/AdInfinitum/build/AdInfinitum.build/Debug/AdInfinitum.build/DerivedSources/i386" "-I/Users/Zubieta/Desktop/Z7/Crazy Projects/CPP/AdInfinitum/build/AdInfinitum.build/Debug/AdInfinitum.build/DerivedSources" -c "/Users/Zubieta/Desktop/Z7/Crazy Projects/CPP/AdInfinitum/main.cpp" -o "/Users/Zubieta/Desktop/Z7/Crazy Projects/CPP/AdInfinitum/build/AdInfinitum.build/Debug/AdInfinitum.build/Objects-normal/i386/main.o"0#
+
+CCompileC build/AdInfinitum.build/Debug/AdInfinitum.build/Objects-normal/i386/main.o /Users/Zubieta/Desktop/AdInfinitum/main.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s358797770.668794
+e358797770.669738
+r1
+xCompileC
+xbuild/AdInfinitum.build/Debug/AdInfinitum.build/Objects-normal/i386/main.o
+x/Users/Zubieta/Desktop/AdInfinitum/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/Zubieta/Desktop/AdInfinitum/main.cpp358797770#358797770#0(0"0(0#0#43"/Users/Zubieta/Desktop/AdInfinitum/main.cpp8615982464#1214"    cd /Users/Zubieta/Desktop/AdInfinitum    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -iquote /Users/Zubieta/Desktop/AdInfinitum/build/AdInfinitum.build/Debug/AdInfinitum.build/AdInfinitum-generated-files.hmap -I/Users/Zubieta/Desktop/AdInfinitum/build/AdInfinitum.build/Debug/AdInfinitum.build/AdInfinitum-own-target-headers.hmap -I/Users/Zubieta/Desktop/AdInfinitum/build/AdInfinitum.build/Debug/AdInfinitum.build/AdInfinitum-all-target-headers.hmap -iquote /Users/Zubieta/Desktop/AdInfinitum/build/AdInfinitum.build/Debug/AdInfinitum.build/AdInfinitum-project-headers.hmap -F/Users/Zubieta/Desktop/AdInfinitum/build/Debug -I/Users/Zubieta/Desktop/AdInfinitum/build/Debug/include -I/Users/Zubieta/Desktop/AdInfinitum/build/AdInfinitum.build/Debug/AdInfinitum.build/DerivedSources/i386 -I/Users/Zubieta/Desktop/AdInfinitum/build/AdInfinitum.build/Debug/AdInfinitum.build/DerivedSources -c /Users/Zubieta/Desktop/AdInfinitum/main.cpp -o /Users/Zubieta/Desktop/AdInfinitum/build/AdInfinitum.build/Debug/AdInfinitum.build/Objects-normal/i386/main.o0#
+
+CLd "/Users/Zubieta/Desktop/Z7/Crazy Projects/CPP/AdInfinitum/build/Debug/AdInfinitum.app/Contents/MacOS/AdInfinitum" normal i386
+s358971347.082811
+e358971347.101385
+r1
+xLd
+x/Users/Zubieta/Desktop/Z7/Crazy Projects/CPP/AdInfinitum/build/Debug/AdInfinitum.app/Contents/MacOS/AdInfinitum
+xnormal
+xi386
+lSLF07#2@116"Link /Users/Zubieta/Desktop/Z7/Crazy Projects/CPP/AdInfinitum/build/Debug/AdInfinitum.app/Contents/MacOS/AdInfinitum358971347#358971347#0(0"0(0#0#0"8613755264#604"    cd "/Users/Zubieta/Desktop/Z7/Crazy Projects/CPP/AdInfinitum"    /Developer/usr/bin/g++-4.2 -arch i386 "-L/Users/Zubieta/Desktop/Z7/Crazy Projects/CPP/AdInfinitum/build/Debug" "-F/Users/Zubieta/Desktop/Z7/Crazy Projects/CPP/AdInfinitum/build/Debug" -filelist "/Users/Zubieta/Desktop/Z7/Crazy Projects/CPP/AdInfinitum/build/AdInfinitum.build/Debug/AdInfinitum.build/Objects-normal/i386/AdInfinitum.LinkFileList" -framework sfml-graphics -framework sfml-system -framework sfml-window -o "/Users/Zubieta/Desktop/Z7/Crazy Projects/CPP/AdInfinitum/build/Debug/AdInfinitum.app/Contents/MacOS/AdInfinitum"0#
+
+CLd /Users/Zubieta/Desktop/AdInfinitum/build/Debug/AdInfinitum.app/Contents/MacOS/AdInfinitum normal i386
+s358797770.669818
+e358797770.688702
+r1
+xLd
+x/Users/Zubieta/Desktop/AdInfinitum/build/Debug/AdInfinitum.app/Contents/MacOS/AdInfinitum
+xnormal
+xi386
+lSLF07#2@94"Link /Users/Zubieta/Desktop/AdInfinitum/build/Debug/AdInfinitum.app/Contents/MacOS/AdInfinitum358797770#358797770#0(0"0(0#0#0"8617155776#484"    cd /Users/Zubieta/Desktop/AdInfinitum    /Developer/usr/bin/g++-4.2 -arch i386 -L/Users/Zubieta/Desktop/AdInfinitum/build/Debug -F/Users/Zubieta/Desktop/AdInfinitum/build/Debug -filelist /Users/Zubieta/Desktop/AdInfinitum/build/AdInfinitum.build/Debug/AdInfinitum.build/Objects-normal/i386/AdInfinitum.LinkFileList -framework sfml-graphics -framework sfml-system -framework sfml-window -o /Users/Zubieta/Desktop/AdInfinitum/build/Debug/AdInfinitum.app/Contents/MacOS/AdInfinitum0#
+
+CPBXCp build/Debug/AdInfinitum.app/Contents/Frameworks/sfml-graphics.framework /Library/Frameworks/sfml-graphics.framework
+s358632120.666313
+e358632120.903681
+r1
+xPBXCp
+xbuild/Debug/AdInfinitum.app/Contents/Frameworks/sfml-graphics.framework
+x/Library/Frameworks/sfml-graphics.framework
+lSLF07#2@48"Copy /Library/Frameworks/sfml-graphics.framework358632120#358632120#0(0"0(0#0#43"/Library/Frameworks/sfml-graphics.framework8625008800#331"    cd /Users/Zubieta/Desktop/AdInfinitum    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Library/Frameworks/sfml-graphics.framework /Users/Zubieta/Desktop/AdInfinitum/build/Debug/AdInfinitum.app/Contents/Frameworks0#
+
+CPBXCp build/Debug/AdInfinitum.app/Contents/Frameworks/sfml-system.framework /Library/Frameworks/sfml-system.framework
+s358632120.663785
+e358632120.738572
+r1
+xPBXCp
+xbuild/Debug/AdInfinitum.app/Contents/Frameworks/sfml-system.framework
+x/Library/Frameworks/sfml-system.framework
+lSLF07#2@46"Copy /Library/Frameworks/sfml-system.framework358632120#358632120#0(0"0(0#0#41"/Library/Frameworks/sfml-system.framework8624354688#329"    cd /Users/Zubieta/Desktop/AdInfinitum    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Library/Frameworks/sfml-system.framework /Users/Zubieta/Desktop/AdInfinitum/build/Debug/AdInfinitum.app/Contents/Frameworks0#
+
+CPBXCp build/Debug/AdInfinitum.app/Contents/Frameworks/sfml-window.framework /Library/Frameworks/sfml-window.framework
+s358632120.665099
+e358632120.742440
+r1
+xPBXCp
+xbuild/Debug/AdInfinitum.app/Contents/Frameworks/sfml-window.framework
+x/Library/Frameworks/sfml-window.framework
+lSLF07#2@46"Copy /Library/Frameworks/sfml-window.framework358632120#358632120#0(0"0(0#0#41"/Library/Frameworks/sfml-window.framework8627036896#329"    cd /Users/Zubieta/Desktop/AdInfinitum    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Library/Frameworks/sfml-window.framework /Users/Zubieta/Desktop/AdInfinitum/build/Debug/AdInfinitum.app/Contents/Frameworks0#
+
+CProcessInfoPlistFile "/Users/Zubieta/Desktop/Z7/Crazy Projects/CPP/AdInfinitum/build/Debug/AdInfinitum.app/Contents/Info.plist" Info.plist
+r0
+
+CProcessInfoPlistFile /Users/Zubieta/Desktop/AdInfinitum/build/Debug/AdInfinitum.app/Contents/Info.plist Info.plist
+s358632119.879907
+e358632119.886165
+r1
+xProcessInfoPlistFile
+x/Users/Zubieta/Desktop/AdInfinitum/build/Debug/AdInfinitum.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist358632119#358632119#0(0"0(0#0#45"/Users/Zubieta/Desktop/AdInfinitum/Info.plist8626210048#298"    cd /Users/Zubieta/Desktop/AdInfinitum    builtin-infoPlistUtility Info.plist -genpkginfo /Users/Zubieta/Desktop/AdInfinitum/build/Debug/AdInfinitum.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/Zubieta/Desktop/AdInfinitum/build/Debug/AdInfinitum.app/Contents/Info.plist0#
+
+CTouch "/Users/Zubieta/Desktop/Z7/Crazy Projects/CPP/AdInfinitum/build/Debug/AdInfinitum.app"
+s358971347.101608
+e358971347.103426
+r1
+xTouch
+x/Users/Zubieta/Desktop/Z7/Crazy Projects/CPP/AdInfinitum/build/Debug/AdInfinitum.app
+lSLF07#2@90"Touch /Users/Zubieta/Desktop/Z7/Crazy Projects/CPP/AdInfinitum/build/Debug/AdInfinitum.app358971347#358971347#0(0"0(0#0#0"8613291520#175"    cd "/Users/Zubieta/Desktop/Z7/Crazy Projects/CPP/AdInfinitum"    /usr/bin/touch -c "/Users/Zubieta/Desktop/Z7/Crazy Projects/CPP/AdInfinitum/build/Debug/AdInfinitum.app"0#
+
+CTouch /Users/Zubieta/Desktop/AdInfinitum/build/Debug/AdInfinitum.app
+s358797770.688916
+e358797770.690697
+r1
+xTouch
+x/Users/Zubieta/Desktop/AdInfinitum/build/Debug/AdInfinitum.app
+lSLF07#2@68"Touch /Users/Zubieta/Desktop/AdInfinitum/build/Debug/AdInfinitum.app358797770#358797770#0(0"0(0#0#0"8617438720#127"    cd /Users/Zubieta/Desktop/AdInfinitum    /usr/bin/touch -c /Users/Zubieta/Desktop/AdInfinitum/build/Debug/AdInfinitum.app0#
+
