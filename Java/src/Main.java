@@ -15,7 +15,7 @@ public class Main extends JFrame{
       this.setTitle("Ad Infinitum")               ;
       this.setSize(300,428)                       ;
       this.setResizable(false)                    ;
-      setLayout(new BorderLayout()                ;
+      setLayout(new BorderLayout())               ;
       graph = new Graph(this)                     ;
       panel = new Panel(this)                     ;
       otherPanel = new OtherPanel(this)           ;
