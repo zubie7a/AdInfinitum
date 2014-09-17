@@ -1,6 +1,6 @@
 BIN_DIR=$(CURDIR)/bin
 BIN_NAME=run
-SRC_DIR=$(CURDIR)/CPP
+SRC_DIR=$(CURDIR)/src
 MAIN=main.cpp
 CPP_FLAGS=-lsfml-graphics -lsfml-window -lsfml-system
 
