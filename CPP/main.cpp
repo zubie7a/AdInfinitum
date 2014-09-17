@@ -35,7 +35,7 @@ int main(){
 		if(r==  0 && g != 0 && b==255){ g--; }
 		if(r!=255 && g == 0 && b==255){ r++; }
 		if(r==255 && g == 0 && b != 0){ b--; }
-		magna[i] = sf::Color::Color(r,g,b);
+		magna[i] = sf::Color(r,g,b);
 	}	
 	
 	for(int i=0; i<imageWidth; ++i){
@@ -111,7 +111,7 @@ int main(){
 		}
 		z++;
 		if(z%50==0){
-			colors[rand()%num] = sf::Color::Color(rand()%255,rand()%255,rand()%255);
+			colors[rand()%num] = sf::Color(rand()%255,rand()%255,rand()%255);
 		}
 		tex.update(ad);
 		adinf.setTexture(tex);
