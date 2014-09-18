@@ -9,6 +9,11 @@
 ###Description
 The AdInfinitum app is an application of the Cyclic Cellular Automaton theory, which from a initial state of several random dispersed colors, and a set of rules (colors converting a certain neighbors into their color) some linear patters start to emerge. This becomes even crazier if there's a 'random' element inserted into the chance of 'survival' of a color when being converted by another, breaking the linearity and creating spirals. This was done for educational purposes, using **SFML 2.0 in C++** and **AWT/Swing in Java**, and is licensed for use under the **MIT License**.
 
+I installed **SFML** in **OSX** using [**brew**](http://brew.sh/). Get it. Its fucking amazing.  
+Just a
+	$ brew install sfml 
+will do it.
+
 ###Telling a story...
 *A grid full of individual cells,  
 each with a color value chosen at random,  
