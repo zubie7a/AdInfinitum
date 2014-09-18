@@ -11,7 +11,7 @@ The AdInfinitum app is an application of the Cyclic Cellular Automaton theory, w
 
 I installed **SFML** in **OSX** using [**brew**](http://brew.sh/). Get it. Its fucking amazing.  
 Just a
-	$ brew install sfml 
+    $ brew install sfml 
 will do it.
 
 ###Telling a story...
