@@ -36,7 +36,7 @@ the result is a more organic and natural looking state*
 [Wikipedia Link](http://en.wikipedia.org/wiki/Cyclic_cellular_automaton)
 
 ###C++ Version Video
-[![](https://raw2.github.com/Zubieta/AdInfinitum/master/Screenshots/Screen_CPP.png)](http://www.youtube.com/watch?v=ggDWurIu6zI)
+[![](https://github.com/Zubieta/AdInfinitum/blob/master/Screenshots/Screen_CPP.png?raw=true)](http://www.youtube.com/watch?v=ggDWurIu6zI)
 
 ###Java Version Video
-[![](https://raw2.github.com/Zubieta/AdInfinitum/master/Screenshots/Screen_Java.png)](http://www.youtube.com/watch?v=84-AlIMW7Fk)
+[![](https://github.com/Zubieta/AdInfinitum/blob/master/Screenshots/Screen_Java.png?raw=true)](http://www.youtube.com/watch?v=84-AlIMW7Fk)
