@@ -46,7 +46,7 @@ int main(){
         if(r!=255 && g == 0 && b==255){ r++; }
         if(r==255 && g == 0 && b != 0){ b--; }
         magna[i] = sf::Color(r,g,b);
-    }   
+    }  
     for(int i=0; i<imageWidth; ++i){
         for(int j=0; j<imageHeight; ++j){
         // The original img will be populated with random numbers from 0 to 12
@@ -151,7 +151,7 @@ int main(){
                     imagen[i][j]%=num;
                 }
             }
-        }              
+        }             
         for(int i=0; i<imageWidth; ++i){
             for(int j=0; j<imageHeight; ++j){
                 ad.setPixel(i, j, colors[imagen[i][j]]);
