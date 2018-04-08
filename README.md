@@ -34,7 +34,7 @@ but it means that a prey may survive. 50/50*
 *The linear cyclical pattern is broken, 
 the result is a more organic and natural looking state*
 
-**Cyclic Celullar Theory**
+**Cyclic Celullar Automaton Theory**
 [Wikipedia Link](http://en.wikipedia.org/wiki/Cyclic_cellular_automaton)
 
 ### C++ Version Video
