@@ -6,6 +6,8 @@
 
 # AdInfinitum
 
+![](https://github.com/zubie7a/AdInfinitum/blob/master/Screenshots/4.png?raw=true)
+
 ### Description
 The AdInfinitum app is an application of the Cyclic Cellular Automaton theory, which from a initial state of several random dispersed colors, and a set of rules (colors converting a certain neighbors into their color) some linear patters start to emerge. This becomes even crazier if there's a 'random' element inserted into the chance of 'survival' of a color when being converted by another, breaking the linearity and creating spirals. This was done for educational purposes, using **SFML 2.0 in C++** and **AWT/Swing in Java**, and is licensed for use under the **MIT License**.
 
@@ -36,7 +38,7 @@ the result is a more organic and natural looking state*
 [Wikipedia Link](http://en.wikipedia.org/wiki/Cyclic_cellular_automaton)
 
 ### C++ Version Video
-[![](https://github.com/Zubieta/AdInfinitum/blob/master/Screenshots/Screen_CPP.png?raw=true)](http://www.youtube.com/watch?v=ggDWurIu6zI)
+[![](https://github.com/zubie7a/AdInfinitum/blob/master/Screenshots/Screen_CPP.png?raw=true)](http://www.youtube.com/watch?v=ggDWurIu6zI)
 
 ### Java Version Video
-[![](https://github.com/Zubieta/AdInfinitum/blob/master/Screenshots/Screen_Java.png?raw=true)](http://www.youtube.com/watch?v=84-AlIMW7Fk)
+[![](https://github.com/zubie7a/AdInfinitum/blob/master/Screenshots/Screen_Java.png?raw=true)](http://www.youtube.com/watch?v=84-AlIMW7Fk)
