@@ -1,44 +1,37 @@
 ## Santiago Zubieta
 #### 2012
 
-*'Watch me fall like dominos, in pretty patterns'*  
--Radiohead, Faust Arp
+## AdInfinitum
 
-# AdInfinitum
+![][01]
 
-![](https://github.com/zubie7a/AdInfinitum/blob/master/Screenshots/4.png?raw=true)
+This is an application of the [Cyclic Cellular Automaton](http://en.wikipedia.org/wiki/Cyclic_cellular_automaton) theory, which from an initial state of several random dispersed colors, and a set of rules _(such as colors converting a certain neighbors into their color)_, some linear patters start to emerge. This becomes even crazier if there's a _'random'_ element inserted into the chance of _'survival'_ of a color when being converted by another, breaking the linearity and creating more organically looking spirals.
 
-### Description
-The AdInfinitum app is an application of the Cyclic Cellular Automaton theory, which from a initial state of several random dispersed colors, and a set of rules (colors converting a certain neighbors into their color) some linear patters start to emerge. This becomes even crazier if there's a 'random' element inserted into the chance of 'survival' of a color when being converted by another, breaking the linearity and creating spirals. This was done for educational purposes, using **SFML 2.0 in C++** and **AWT/Swing in Java**, and is licensed for use under the **MIT License**.
+This was made for educational purposes, and is licensed under the MIT License.
+
+This uses uses **SFML 2.0** for **C++** and **AWT/Swing** for **Java**.
 
 I installed **SFML** in **OSX** using [**brew**](http://brew.sh/). Get it. Its incredibly amazing and powerful.  
 Just a `$ brew install sfml` will do it.
 
-### Telling a story...
-*A grid full of individual cells,  
-each with a color value chosen at random,  
-overall, there are up to 12 different colors*
+### The Process
 
-*Suddenly, each cell becomes a prey.  
-its hunter, is the 'next' color in the Metaverse rules, like:  
-1 -> 2 / 2 -> 3 / 3 -> 4... up to 12 -> 1*  
+A grid full of individual cells. Each with a color value chosen at random. Overall, there are 12 different colors that wrap around.
 
-*If everything goes according to the plan,  
-a curious linear and cyclical pattern is formed*  
+Suddenly, each cell becomes prey, its hunter, is the 'next' color in the rules:
 
-*But then, once in a while, chaos may appear.  
-This chaos, is the uprising of the preys.  
-It doesn't mean the prey will eat the hunter,  
-but it means that a prey may survive. 50/50*  
+`1 -> 2 / 2 -> 3 / n -> n+1 / 12 -> 1`
 
-*The linear cyclical pattern is broken, 
-the result is a more organic and natural looking state*
+If everything goes according to the plan, a curious linear and cyclical pattern is formed.
 
-**Cyclic Celullar Automaton Theory**
-[Wikipedia Link](http://en.wikipedia.org/wiki/Cyclic_cellular_automaton)
+If everything goes according to the plan, a curious linear and cyclical pattern is formed. But then, once in a while, rules change, and chaos appears. This chaos, is the prey fighting back. It doesn't mean the prey will eat the hunter, but it means that a prey may survive an iteration, 50/50 odds. The linear cyclical pattern is broken, the result is a more organic and natural looking spiral.
 
 ### C++ Version Video
-[![](https://github.com/zubie7a/AdInfinitum/blob/master/Screenshots/Screen_CPP.png?raw=true)](http://www.youtube.com/watch?v=ggDWurIu6zI)
+[![][02]](http://www.youtube.com/watch?v=ggDWurIu6zI)
 
 ### Java Version Video
-[![](https://github.com/zubie7a/AdInfinitum/blob/master/Screenshots/Screen_Java.png?raw=true)](http://www.youtube.com/watch?v=84-AlIMW7Fk)
+[![][03]](http://www.youtube.com/watch?v=84-AlIMW7Fk)
+
+[01]: https://i.imgur.com/aQalSUZ.png "AdInfinitum"
+[02]: https://i.imgur.com/TzWw3Tz.png "AdInfinitum"
+[03]: https://i.imgur.com/Fi07Exw.png "AdInfinitum"
