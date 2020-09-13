@@ -14,8 +14,13 @@ This uses uses **SFML 2.0** for **C++** and **AWT/Swing** for **Java**.
 I installed **SFML** in **OSX** using [**brew**](http://brew.sh/). Get it. Its incredibly amazing and powerful.  
 Just a `$ brew install sfml` will do it.
 
-### The Process
+### C++ Version Video
+[![][02]](http://www.youtube.com/watch?v=ggDWurIu6zI)
 
+### Java Version Video
+[![][03]](http://www.youtube.com/watch?v=84-AlIMW7Fk)
+
+### The Process
 A grid full of individual cells. Each with a color value chosen at random. Overall, there are 12 different colors that wrap around.
 
 Suddenly, each cell becomes prey, its hunter, is the 'next' color in the rules:
@@ -24,13 +29,7 @@ Suddenly, each cell becomes prey, its hunter, is the 'next' color in the rules:
 
 If everything goes according to the plan, a curious linear and cyclical pattern is formed.
 
-If everything goes according to the plan, a curious linear and cyclical pattern is formed. But then, once in a while, rules change, and chaos appears. This chaos, is the prey fighting back. It doesn't mean the prey will eat the hunter, but it means that a prey may survive an iteration, 50/50 odds. The linear cyclical pattern is broken, the result is a more organic and natural looking spiral.
-
-### C++ Version Video
-[![][02]](http://www.youtube.com/watch?v=ggDWurIu6zI)
-
-### Java Version Video
-[![][03]](http://www.youtube.com/watch?v=84-AlIMW7Fk)
+If everything goes according to the plan, a curious linear and cyclical pattern is formed. But then, once in a while, rules change, and chaos appears. This chaos, is the prey fighting back. It doesn't mean the prey will eat the hunter, but it means that a prey may survive an iteration, **50/50** odds. The linear cyclical pattern is broken, the result is a more organic and natural looking spiral.
 
 [01]: https://i.imgur.com/aQalSUZ.png "AdInfinitum"
 [02]: https://i.imgur.com/TzWw3Tz.png "AdInfinitum"
