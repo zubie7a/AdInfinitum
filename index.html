@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ad Infinitum</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #000;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+        }
+        canvas {
+            display: block;
+            image-rendering: -moz-crisp-edges;
+            image-rendering: -webkit-crisp-edges;
+            image-rendering: pixelated;
+            image-rendering: crisp-edges;
+            width: min(100vw, 100vh) !important;
+            height: min(100vw, 100vh) !important;
+            max-width: 100vw;
+            max-height: 100vh;
+        }
+        .info {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            color: #fff;
+            font-size: 12px;
+            z-index: 10;
+        }
+    </style>
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dat.gui@0.7.9/build/dat.gui.min.js"></script>
+    <script>
+        const width = 320;
+        const height = 320;
+
+        let curGrid = [];
+        let oldGrid = [];
+        let coords = [];
+        let indices = [];
+        let numColors = 9;
+        let gui;
+        let params = {
+            numColors: 9,
+            randomness: false
+        };
+
+        function initializeGrid() {
+            coords = [];
+            indices = [];
+            
+            // Initialize grids
+            for (let i = 0; i < width; i++) {
+                curGrid[i] = [];
+                oldGrid[i] = [];
+                for (let j = 0; j < height; j++) {
+                    curGrid[i][j] = int(random(numColors));
+                    coords.push([i, j]);
+                }
+            }
+            
+            // Create shuffled indices
+            for (let i = 0; i < coords.length; i++) {
+                indices.push(i);
+            }
+            shuffle(indices);
+        }
+
+        function iterate(cX, cY) {
+            let dirsX = [-1, 0, 1];
+            let dirsY = [-1, 0, 1];
+            
+            shuffle(dirsX);
+            
+            for (let i = 0; i < 3; i++) {
+                shuffle(dirsY);
+                for (let j = 0; j < 3; j++) {
+                    const dX = dirsX[i];
+                    const dY = dirsY[j];
+                    
+                    // Skip diagonal and center
+                    if ((dX === 0 && dY === 0) || (dX !== 0 && dY !== 0)) {
+                        continue;
+                    }
+                    
+                    const nX = cX + dX;
+                    const nY = cY + dY;
+                    
+                    // Check bounds
+                    if (nX < 0 || nX >= width || nY < 0 || nY >= height) {
+                        continue;
+                    }
+                    
+                    const v1 = oldGrid[nX][nY];
+                    const v2 = oldGrid[cX][cY];
+                    
+                    // Check if neighbor value + 1 mod numColors equals current value
+                    if (((v1 + 1) % numColors === v2) && !(params.randomness && int(random(2)) === 0)) {
+                        curGrid[nX][nY] = v2;
+                    }
+                }
+            }
+        }
+
+        function setup() {
+            createCanvas(width, height);
+            let canvasElement = document.querySelector('canvas');
+            let size = min(windowWidth, windowHeight);
+            canvasElement.style.width = size + 'px';
+            canvasElement.style.height = size + 'px';
+            background(0);
+            initializeGrid();
+            colorMode(HSB);
+            
+            // Setup dat.GUI
+            gui = new dat.GUI();
+            gui.add(params, 'numColors', 2, 16).step(1).onChange(function(value) {
+                numColors = Math.round(value);
+                params.numColors = numColors;
+                initializeGrid();
+            });
+            gui.add(params, 'randomness');
+        }
+        
+        function windowResized() {
+            let canvasElement = document.querySelector('canvas');
+            let size = min(windowWidth, windowHeight);
+            canvasElement.style.width = size + 'px';
+            canvasElement.style.height = size + 'px';
+        }
+
+        function draw() {
+            // Copy current grid to old grid
+            for (let i = 0; i < width; i++) {
+                for (let j = 0; j < height; j++) {
+                    oldGrid[i][j] = curGrid[i][j];
+                }
+            }
+            
+            // Iterate through all cells in shuffled order
+            for (let i = 0; i < indices.length; i++) {
+                const indice = indices[i];
+                const coord = coords[indice];
+                const x = coord[0];
+                const y = coord[1];
+                
+                iterate(x, y);
+                
+                noStroke();
+                fill(map(curGrid[x][y], 0, numColors, 0, 240), 255, 255);
+                rect(x, y, 1, 1);
+            }
+            
+            // Reshuffle indices for next frame
+            shuffle(indices);
+        }
+    </script>
+</body>
+</html>
+
